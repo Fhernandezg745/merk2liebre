@@ -1,0 +1,23 @@
+{
+    "name": "merk2liebre",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "node source/app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Fhernandezg745/merk2liebre.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Fhernandezg745/merk2liebre/issues"
+    },
+    "homepage": "https://github.com/Fhernandezg745/merk2liebre#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    }
+}

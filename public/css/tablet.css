@@ -1,0 +1,21 @@
+@media (min-width: 361px) {
+    .mid-header-section .main-navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .mid-header-section .main-navbar .site {}
+    #burgerMenu {
+        display: none;
+    }
+    .articleBox {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .descripciones {
+        display: inline-flex;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
