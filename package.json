@@ -4,7 +4,7 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-        "test": "node source/app.js"
+        "test": "node src/app.js"
     },
     "repository": {
         "type": "git",
