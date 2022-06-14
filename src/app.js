@@ -7,7 +7,7 @@ server.listen(port, () =>
     console.log(`Abriendo el servidor http://localhost:${port}`)
 );
 
-const public = path.resolve(__dirname, "./public");
+const public = path.resolve(__dirname, "../public");
 
 server.use(express.static(public));
 
