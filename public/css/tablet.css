@@ -1,21 +1,50 @@
-@media (min-width: 361px) {
+@media (min-width: 480px) {
+    /*================================= HEADER CONTENT ============================================*/
+    /*++++ TOP HEADER +++++*/
+    .top-header-section a {
+        width: 30%;
+    }
+    .top-header-section p {
+        width: 30%;
+    }
+    .searchBar {
+        width: 30%
+    }
+    /*++++ MID HEADER +++++*/
     .mid-header-section .main-navbar {
         display: flex;
+        flex-grow: 1;
         flex-direction: row;
         justify-content: space-between;
+        gap: 0.5rem;
     }
-    .mid-header-section .main-navbar .site {}
+    .mid-header-section a {
+        color: #03264C;
+        padding: 5px 0;
+    }
+    .site {
+        display: flex;
+        gap: 1rem;
+    }
+    .loginNavbar {
+        display: flex;
+        gap: 1rem;
+    }
+    /*++++ BOTTOM HEADER +++++*/
     #burgerMenu {
         display: none;
     }
+    /*==================================== MAIN CONTENT ============================================*/
     .articleBox {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .descripciones {
+        color: #666;
         display: inline-flex;
     }
     .wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
     }
 }
