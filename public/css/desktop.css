@@ -2,28 +2,28 @@
     .wrapper {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
-
     .precios {
         font-size: 1.5vw;
-
     }
     .descuentos {
         font-size: 1.5vw;
-
     }
-
     /*================================== FOOTER CONTENT =====================================*/
     footer {
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-
-    }  
+    }
     .footer-items {
         width: 33%;
-    }  
+    }
     .iconos:hover {
         color: #1a731a;
     }
-
+    /*================================== FORM REGISTER =====================================*/
+    .formItemsRegister {}
+    .formArea {}
+    main {
+        align-content: center;
+    }
 }

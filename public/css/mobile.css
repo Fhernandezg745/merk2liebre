@@ -83,7 +83,6 @@
         display: none;
         padding: 10px;
     }
-
     /*++++ BOTTOM HEADER +++++*/
     
     .bottom-header-section figure img {
@@ -141,8 +140,11 @@
         padding: 15px;
     }
     
+    #show {
+        display: none;
+    }
+    
     .descripciones {
-        display:none;
         font-size: 16px;
         text-align: center;
         transition: delay 0.5s;
@@ -163,7 +165,6 @@
         color: #39b54a;
         transition: transform 0.5s;
     }
-
     
     main section article i {
         display: block;
@@ -182,8 +183,6 @@
     .logoEnvio:hover {
         transform: rotateZ(-90deg)
     }
-
-
     /*================================== FOOTER CONTENT =====================================*/
     
     footer {
@@ -203,6 +202,18 @@
     }
     /*================================== FORMS CONTENT =====================================*/
     
+    .formItems {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .formItemsRegister {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-grow: 1;
+    }
+    
     .formArea {
         display: flex;
         justify-content: center;
@@ -214,6 +225,18 @@
         padding-bottom: 10px;
     }
     
+    .formItemsLogin {
+        display: flex;
+        flex-wrap: wrap;
+        flex-flow: column;
+        padding-bottom: 1rem;
+        align-items: center;
+    }
+    
+    .formItemsLogin label {
+        font-size: 1.2rem;
+    }
+    
     .formArea label {
         padding: 0.5rem;
         font-size: 14px;
@@ -223,16 +246,29 @@
     .formArea fieldset {
         width: 100%;
         height: 100%;
-        max-width: 600px;
+        max-width: 60rem;
     }
     
-    .inputTextField {
+    .inputTextFieldLogin {
         margin-top: 0.5rem;
         display: flex;
         width: 100%;
         height: 3rem;
         border-radius: 4px;
         padding-left: 10px;
+    }
+    
+    .inputTextFieldRegister {
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        height: 3rem;
+        border-radius: 4px;
+        padding-left: 10px;
+    }
+    
+    #password {
+        margin-bottom: 0.3rem;
     }
     
     .sendButton {
@@ -268,10 +304,11 @@
         align-items: center;
     }
     
-    .DateField {
-        font-size: 16px;
-        font-style: normal;
-        font-weight: bold;
+    .labelDateField {
+        margin-bottom: 0;
+    }
+    
+    .labelField {
         margin-bottom: 0;
     }
     
@@ -311,6 +348,8 @@
         font-weight: 300;
         border: none;
         box-sizing: border-box;
+        transition-property: background-color;
+        transition-duration: 0.5s;
     }
     
     .buttonField a {
@@ -319,4 +358,10 @@
         width: 50%;
         max-width: 100px;
         padding-top: 1rem;
+        text-decoration: none;
     }
+    
+    .loginButton:hover {
+        background-color: #0022AA;
+    }
+    /* =============================SLIDER==================================== */
