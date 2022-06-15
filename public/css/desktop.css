@@ -2,4 +2,18 @@
     .wrapper {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    /*================================== FOOTER CONTENT =====================================*/
+    footer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+
+    }  
+    .footer-items {
+        width: 33%;
+    }  
+    .iconos:hover {
+        color: #1a731a;
+    }
+
 }

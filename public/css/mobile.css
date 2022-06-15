@@ -83,6 +83,7 @@
         display: none;
         padding: 10px;
     }
+
     /*++++ BOTTOM HEADER +++++*/
     
     .bottom-header-section figure img {
@@ -141,9 +142,10 @@
     }
     
     .descripciones {
+        display:none;
         font-size: 16px;
         text-align: center;
-        display: none;
+        transition: delay 0.5s;
     }
     
     .precios {
@@ -174,6 +176,23 @@
         right: 20px;
         top: -15px;
     }
+
+    .articleDescription:hover {
+
+    }
+
+    @keyframes truck {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+
+
+
     /*================================== FOOTER CONTENT =====================================*/
     
     footer {
@@ -189,6 +208,7 @@
         font-size: 2em;
         margin-bottom: 10px;
         color: #1259c3;
+        transition: color 0s;
     }
     /*================================== FORMS CONTENT =====================================*/
     

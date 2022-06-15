@@ -36,8 +36,13 @@
     }
     /*==================================== MAIN CONTENT ============================================*/
     .articleBox {
+        transition: box-shadow 0.5s ease-in-out;
+    }
+
+    .articleBox:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
     .descripciones {
         color: #666;
         display: inline-flex;
