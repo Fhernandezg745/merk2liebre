@@ -18,7 +18,7 @@
 <body>
     <header class="main-header">
         <section class="top-header-section">
-            <a>
+            <a href="/">
                 <img src="images/logo-mercado-liebre.svg" alt="logo" class="logoMeli" />
             </a>
             <form action="/" method="GET" class="searchBar">
@@ -58,13 +58,13 @@
 
     <main>
         <form action="/login.html" method="post" class="formDialog">
-            <fieldset class="formItems">
-                <label for="usuario"></label>
-                <input type="text" name="usuario" placeholder="Ingresa tu nombre de usuario" pattern="Usuario o contraseña incorrectos" required class="inputTextField">
+            <fieldset class="formItemsLogin">
+                <label for="usuario">Nombre de usuario</label>
+                <input type="text" name="usuario" placeholder="Ingresa tu nombre de usuario" pattern="Usuario o contraseña incorrectos" required class="inputTextFieldLogin">
             </fieldset>
-            <fieldset class="formItems">
-                <label for="password"></label>
-                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" pattern="Usuario o contraseña incorrectos" required class="inputTextField">
+            <fieldset class="formItemsLogin">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" pattern="Usuario o contraseña incorrectos" required class="inputTextFieldLogin">
             </fieldset>
             <fieldset class="buttonField">
                 <a href="https://merk2liebre.herokuapp.com/">

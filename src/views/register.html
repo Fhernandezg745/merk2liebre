@@ -18,7 +18,7 @@
 <body>
     <header class="main-header">
         <section class="top-header-section">
-            <a>
+            <a href="/">
                 <img src="images/logo-mercado-liebre.svg" alt="logo" class="logoMeli" />
             </a>
             <form action="/" method="GET" class="searchBar">
@@ -58,26 +58,26 @@
 
 
     <main>
-        <form action="/register.html" method="post" class="formArea formItems">
-            <fieldset>
+        <form action="/register.html" method="post" class="formArea formItemsRegister">
+            <fieldset class="labelField">
                 <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="inputTextField">
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="inputTextFieldRegister">
             </fieldset>
-            <fieldset>
+            <fieldset class="labelField">
                 <label for="apellidos">Apellido</label>
-                <input type="text" name="apellido" placeholder="Ingresa tu apellido" class="inputTextField">
+                <input type="text" name="apellido" placeholder="Ingresa tu apellido" class="inputTextFieldRegister">
             </fieldset>
-            <fieldset>
+            <fieldset class="labelField">
                 <label for="usuario">Usuario</label>
-                <input type="text" name="usuario" placeholder="Ingrese nombre de usuari@" class="inputTextField">
+                <input type="text" name="usuario" placeholder="Ingrese nombre de usuari@" class="inputTextFieldRegister">
             </fieldset>
-            <fieldset class="DateField">
-                <label for="nacimiento">Fecha de nacimiento:</label>
+            <fieldset class="labelDateField">
+                <label for="nacimiento">Fecha de nacimiento</label>
                 <input type="date" name="nacimiento" id="date" placeholder="Fecha de nacimiento" class="dateInput">
             </fieldset>
-            <fieldset>
+            <fieldset class="labelField">
                 <label for="domicilio">Domicilio</label>
-                <input type="text" name="domicilio" placeholder="Av. Sarastiagas 1020" class="inputTextField">
+                <input type="text" name="domicilio" placeholder="Av. Sarastiagas 1020" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="optionSelect">
                 <label for="perfil">Perfil:</label>
@@ -102,12 +102,12 @@
             </fieldset>
             <fieldset>
                 <label for="email">Registrate</label>
-                <input type="email" name="email" id="email" placeholder="Ingresa tu email" class="inputTextField">
+                <input type="email" name="email" id="email" placeholder="Ingresa tu email" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="passField">
                 <label for="password">Crea una Contraseña:</label>
-                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" class="inputTextField">
-                <input type="password" name="password" id="passwordCheked" placeholder="Ingresa nuevamente tu contraseña" class="inputTextField">
+                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" class="inputTextFieldRegister">
+                <input type="password" name="password" id="passwordCheked" placeholder="Ingresa nuevamente tu contraseña" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="buttonField">
                 <input type="button" value="Enviar" name="enviar" class="sendButton">
