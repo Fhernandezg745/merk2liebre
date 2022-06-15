@@ -5,13 +5,18 @@
         width: 30vw;
     }
     .top-header-section p {
-        width: 30vw;
+        width: 20vw;
     }
     .searchBar {
-        width: 30vw;
+        width: 35vw;
     }
-    .headerFrase {
+    .top-header-section .headerFrase {
         font-size: 1.2rem;
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+    .top-header-section .headerFrase i {
+        align-self: center;
     }
     /*++++ MID HEADER +++++*/
     .mid-header-section .main-navbar {
@@ -72,9 +77,6 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
-    }
-    .articleBox:hover+#show {
-        display: block;
     }
     /*==================================== FORM CONTENT ============================================*/
     .inputTextFieldLogin {

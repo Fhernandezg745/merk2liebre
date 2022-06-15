@@ -1,4 +1,13 @@
 @media screen and (min-width: 769px) {
+    .main-header .top-header-section p {
+        font-size: 1.5rem;
+    }
+    .main-header .top-header-section i {
+        font-size: 1.5rem;
+    }
+    .mid-header-section .main-navbar a {
+        font-size: 1.5rem;
+    }
     .wrapper {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -24,6 +33,12 @@
     .formItemsRegister {}
     .formArea {}
     main {
+        align-content: center;
+    }
+    header {
+        align-content: center;
+    }
+    body {
         align-content: center;
     }
 }
