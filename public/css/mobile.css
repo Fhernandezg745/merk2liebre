@@ -161,7 +161,9 @@
     
     .logoEnvio {
         color: #39b54a;
+        transition: transform 0.5s;
     }
+
     
     main section article i {
         display: block;
@@ -176,21 +178,10 @@
         right: 20px;
         top: -15px;
     }
-
-    .articleDescription:hover {
-
+    
+    main section article i:hover {
+        transform: rotateY(-90deg)
     }
-
-    @keyframes truck {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(100%);
-        }
-    }
-
-
 
 
     /*================================== FOOTER CONTENT =====================================*/
