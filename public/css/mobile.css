@@ -179,8 +179,8 @@
         top: -15px;
     }
     
-    main section article i:hover {
-        transform: rotateY(-90deg)
+    .logoEnvio:hover {
+        transform: rotateZ(-90deg)
     }
 
 

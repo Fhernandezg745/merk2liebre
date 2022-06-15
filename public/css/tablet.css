@@ -72,5 +72,8 @@
         grid-template-columns: 1fr 1fr;
         column-gap: 2rem;
     }
-    
+
+    .descripciones:hover
+    {
+    }
 }

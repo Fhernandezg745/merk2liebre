@@ -1,14 +1,14 @@
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
     .wrapper {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .precios {
-        font-size: 1.8vw;
+        font-size: 1.5vw;
 
     }
     .descuentos {
-        font-size: 1.8vw;
+        font-size: 1.5vw;
 
     }
 
