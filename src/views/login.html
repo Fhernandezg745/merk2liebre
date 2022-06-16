@@ -63,13 +63,19 @@
     </header>
     <main>
         <form action="/login.html" method="post" class="formDialog">
-            <fieldset class="formItemsLogin">
-                <label for="usuario">Nombre de usuario</label>
-                <input type="text" name="usuario" placeholder="Ingresa tu nombre de usuario" pattern="Usuario o contraseña incorrectos" required class="inputTextFieldLogin">
+            <fieldset class="login__field">
+                <label for="usuario"></label>
+                <div class="loginInput">
+                <i class="login__icon fas fa-user"></i>
+                <input type="text" name="usuario" placeholder="Ingresa tu nombre de usuario" pattern="Usuario o contraseña incorrectos" required class="inputTextFieldLogin login__input">
+            </div>
             </fieldset>
-            <fieldset class="formItemsLogin">
-                <label for="password">Contraseña</label>
-                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" pattern="Usuario o contraseña incorrectos" required class="inputTextFieldLogin">
+            <fieldset class="login__field">
+                <label for="password"></label>
+                <div class="loginInput">
+                <i class="login__icon fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" pattern="Usuario o contraseña incorrectos" required class="inputTextFieldLogin login__input">
+            </div>
             </fieldset>
             <fieldset class="buttonField">
                 <a href="https://merk2liebre.herokuapp.com/">
@@ -96,6 +102,6 @@
         </section>
     </footer>
 </body>
-<p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+<h4>Copyright © 1999-2020 MercadoLiebre S.R.L.</h4>
 
 </html>
