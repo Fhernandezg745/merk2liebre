@@ -126,8 +126,12 @@ main section article i {
     padding-left: 10px;
 }
 
+
 .inputTextFieldRegister {
+    background-color: #ebebeb;
     margin-top: 0;
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
     display: flex;
     width: 100%;
     height: 3rem;
@@ -138,6 +142,7 @@ main section article i {
 
 #password {
     margin-bottom: 0.3rem;
+	border-bottom: 2px solid #D1D1D4;
 }
 
 .sendButton {
@@ -187,7 +192,9 @@ main section article i {
 }
 
 .dateInput {
-    background-color: #fff;
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
+    background-color: #ebebeb;
     width: 100%;
     height: 3rem;
     border-radius: 4px;
@@ -195,8 +202,10 @@ main section article i {
 }
 
 .optionSelect select {
+    border: none;
+	border-bottom: 2px solid #D1D1D4;
     font-size: 12px;
-    background-color: #fff;
+    background-color: #ebebeb;
     width: 100%;
     height: 3rem;
     border-radius: 4px;
@@ -253,6 +262,7 @@ main section article i {
     padding-bottom: 1rem;
 }
 .login__input {
+    font-size: 1.2rem;
 	border: none;
 	border-bottom: 2px solid #D1D1D4;
 	background: none;

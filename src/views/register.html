@@ -67,33 +67,39 @@
         <form action="/register.html" method="post" class="formAreaRegister">
             <fieldset class="labelField">
                 <label for="nombre">Nombre</label>
+                <i class="fa-solid fa-id-card"></i>
                 <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="labelField">
                 <label for="apellidos">Apellido</label>
+                <i class="fa-solid fa-id-card"></i>
                 <input type="text" name="apellido" placeholder="Ingresa tu apellido" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="labelField">
                 <label for="usuario">Usuario</label>
+                <i class="fa-solid fa-user"></i>
                 <input type="text" name="usuario" placeholder="Ingrese nombre de usuari@" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="labelDateField">
                 <label for="nacimiento">Fecha de nacimiento</label>
+                <i class="fa-solid fa-calendar-days"></i>
                 <input type="date" name="nacimiento" id="date" placeholder="Fecha de nacimiento" class="dateInput">
             </fieldset>
             <fieldset class="labelField">
                 <label for="domicilio">Domicilio</label>
+                <i class="fa-solid fa-location-dot"></i>
                 <input type="text" name="domicilio" placeholder="Av. Sarastiagas 1020" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="optionSelect">
                 <label for="perfil">Perfil</label>
+                <i class="fa-solid fa-user"></i>
                 <select name="perfil">
                     <option value="buyer">Comprad@r</option>
                     <option value="seller">Vended@r</option>
                 </select>
             </fieldset>
             <fieldset class="checkbox">
-                <label for="interes">Indica tus intereses:
+                <label for="interes">Selecciona tus intereses:
                 <label for="Electro">Electro</label>
                 <input type="checkbox" name="Electro" value="electro">
                 <label for="Moda">Moda</label>
@@ -107,13 +113,15 @@
                 </label>
             </fieldset>
             <fieldset>
-                <label for="email">Registrate</label>
+                <label for="email">Registrate</label>   
+                <i class="fa-solid fa-envelope-open-text"></i>
                 <input type="email" name="email" id="email" placeholder="Ingresa tu email" class="inputTextFieldRegister">
             </fieldset>
             <fieldset class="passField">
                 <label for="password">Crea una Contraseña:</label>
+                <i class="fa-solid fa-lock"></i>
                 <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" class="inputTextFieldRegister">
-                <input type="password" name="password" id="passwordCheked" placeholder="Ingresa nuevamente tu contraseña" class="inputTextFieldRegister">
+                <input type="password" name="password" id="passwordCheked" placeholder="Ingresa nuevamente tu contraseña" class="inputTextFieldRegister registration">
             </fieldset>
             <fieldset class="buttonField">
                 <input type="button" value="Enviar" name="enviar" class="sendButton">
