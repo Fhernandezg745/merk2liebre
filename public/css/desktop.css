@@ -31,14 +31,20 @@
     }
     /*================================== FORM REGISTER =====================================*/
     .formItemsRegister {}
-    .formArea {}
     main {
         align-content: center;
+        align-self: center;
     }
     header {
         align-content: center;
     }
     body {
         align-content: center;
+    }
+    .formAreaRegister fieldset {
+        font-size: 2rem;
+    }
+    .formAreaRegister label {
+        font-size: 1.5rem;
     }
 }
