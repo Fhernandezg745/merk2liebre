@@ -126,12 +126,11 @@ main section article i {
     padding-left: 10px;
 }
 
-
 .inputTextFieldRegister {
     background-color: #ebebeb;
     margin-top: 0;
     border: none;
-	border-bottom: 2px solid #D1D1D4;
+    border-bottom: 2px solid #D1D1D4;
     display: flex;
     width: 100%;
     height: 3rem;
@@ -142,7 +141,7 @@ main section article i {
 
 #password {
     margin-bottom: 0.3rem;
-	border-bottom: 2px solid #D1D1D4;
+    border-bottom: 2px solid #D1D1D4;
 }
 
 .sendButton {
@@ -193,7 +192,7 @@ main section article i {
 
 .dateInput {
     border: none;
-	border-bottom: 2px solid #D1D1D4;
+    border-bottom: 2px solid #D1D1D4;
     background-color: #ebebeb;
     width: 100%;
     height: 3rem;
@@ -203,7 +202,7 @@ main section article i {
 
 .optionSelect select {
     border: none;
-	border-bottom: 2px solid #D1D1D4;
+    border-bottom: 2px solid #D1D1D4;
     font-size: 12px;
     background-color: #ebebeb;
     width: 100%;
@@ -247,30 +246,38 @@ main section article i {
 }
 
 .login__icon {
-	position: absolute;
-	top: 30px;
-	color: #1259c3;
+    position: absolute;
+    top: 30px;
+    color: #1259c3;
     font-size: 1.4rem;
 }
+
+.registerIcon {
+    top: 30px;
+    color: #1259c3;
+    font-size: 1.4rem;
+}
+
 .login__field {
     width: 100%;
     display: flex;
     flex-grow: 1;
-	padding: 20px 0px;	
-	position: relative;	
+    padding: 20px 0px;
+    position: relative;
     align-items: center;
     padding-bottom: 1rem;
 }
+
 .login__input {
     font-size: 1.2rem;
-	border: none;
-	border-bottom: 2px solid #D1D1D4;
-	background: none;
-	padding: 10px;
-	padding-left: 24px;
-	font-weight: 700;
-	width: 60vw;
-	transition: .2s;
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 60vw;
+    transition: .2s;
 }
 
 .login__input label {
