@@ -1,0 +1,17 @@
+/*================================== FOOTER CONTENT =====================================*/
+
+footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer section {
+    margin: 1rem;
+}
+
+.iconos {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+    transition: color 0s;
+}

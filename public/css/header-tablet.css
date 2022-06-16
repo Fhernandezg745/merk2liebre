@@ -1,0 +1,46 @@
+@media (min-width: 480px) {
+    /*================================= HEADER CONTENT ============================================*/
+    /*++++ TOP HEADER +++++*/
+    .top-header-section a {
+        width: 30vw;
+    }
+    .top-header-section p {
+        width: 20vw;
+    }
+    .searchBar {
+        width: 35vw;
+    }
+    .top-header-section .headerFrase {
+        font-size: 1.2rem;
+        gap: 1rem;
+        padding-left: 1rem;
+    }
+    .top-header-section .headerFrase i {
+        align-self: center;
+    }
+    /*++++ MID HEADER +++++*/
+    .mid-header-section .main-navbar {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.5rem;
+    }
+    .mid-header-section a {
+        font-size: 1.2rem;
+        color: #03264C;
+        padding: 5px 0;
+    }
+    .site {
+        display: flex;
+        gap: 1rem;
+    }
+    .loginNavbar {
+        display: flex;
+        gap: 1rem;
+    }
+    /*++++ BOTTOM HEADER +++++*/
+    #burgerMenu {
+        display: none;
+    }
+}

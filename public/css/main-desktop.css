@@ -1,0 +1,26 @@
+@media screen and (min-width: 769px) {
+    /*================================== MAIN CONTENT=====================================*/
+    main {
+        align-content: center;
+        align-self: center;
+    }
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .precios {
+        font-size: 1.5vw;
+    }
+    .descuentos {
+        font-size: 1.5vw;
+    }
+    /*================================== FORM REGISTER =====================================*/
+    .formAreaRegister fieldset {
+        font-size: 2rem;
+    }
+    .formAreaRegister label {
+        font-size: 1.5rem;
+    }
+    .formAreaRegister .passField {
+        font-size: 1.5rem;
+    }
+}

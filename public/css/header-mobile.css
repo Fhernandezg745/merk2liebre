@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+
+/*================================= HEADER CONTENT =====================================*/
+
+body {
+    background-color: #ebebeb;
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-header {
+    display: inline-block;
+    background-color: #EAC926;
+}
+
+
+/*++++ TOP HEADER +++++*/
+
+.top-header-section {
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.top-header-section a {
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.top-header-section p {
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.formItems {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchBar {
+    padding: 0.5rem;
+    height: auto;
+    width: 50%
+}
+
+.searchBar input {
+    padding: 10px 35px 10px 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchBar i {
+    display: flex;
+    flex-wrap: wrap;
+    background: transparent;
+    outline: none;
+    margin-left: -33px;
+    background-color: #fff;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    align-items: center;
+}
+
+
+/*++++ MID HEADER +++++*/
+
+.mid-header-section {
+    align-items: center;
+}
+
+.mid-header-section #burgerMenu {
+    text-align: center;
+}
+
+.mid-header-section .main-navbar {
+    display: none;
+    padding: 10px;
+}
+
+
+/*++++ BOTTOM HEADER +++++*/
+
+.bottom-header-section figure img {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+#burgerMenu a {
+    background: hsl(210, 100%, 50%);
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+    padding: 1px;
+    border: 0.5px solid black;
+    color: hsl(210, 100%, 100%);
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
