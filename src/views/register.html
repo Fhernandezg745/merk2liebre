@@ -64,18 +64,18 @@
 
 
     <main>
-        <form action="/register.html" method="post" class="formAreaRegister">
+        <form action="https://merk2liebre.herokuapp.com/" method="post" class="formAreaRegister">
             <fieldset class="labelField">
                 <label for="nombre"><i class="fa-solid fa-id-card registerIcon"></i> Nombre</label>
-                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="inputTextFieldRegister">
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="inputTextFieldRegister" required>
             </fieldset>
             <fieldset class="labelField">
                 <label for="apellidos"><i class="fa-solid fa-id-card registerIcon"></i> Apellido</label>
-                <input type="text" name="apellido" placeholder="Ingresa tu apellido" class="inputTextFieldRegister">
+                <input type="text" name="apellido" placeholder="Ingresa tu apellido" class="inputTextFieldRegister" required>
             </fieldset>
             <fieldset class="labelField">
                 <label for="usuario"><i class="fa-solid fa-user registerIcon"></i> Usuario</label>
-                <input type="text" name="usuario" placeholder="Ingrese nombre de usuari@" class="inputTextFieldRegister">
+                <input type="text" name="usuario" placeholder="Ingrese nombre de usuari@" class="inputTextFieldRegister" required>
             </fieldset>
             <fieldset class="labelDateField">
                 <label for="nacimiento"><i class="fa-solid fa-calendar-days registerIcon"></i> Fecha de nacimiento</label>
@@ -112,12 +112,12 @@
             </fieldset>
             <fieldset class="passField">
                 <label for="password"><i class="fa-solid fa-lock registerIcon"></i> Crea una Contraseña:</label>
-                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" class="inputTextFieldRegister">
-                <input type="password" name="password" id="passwordCheked" placeholder="Ingresa nuevamente tu contraseña" class="inputTextFieldRegister registration">
+                <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña" class="inputTextFieldRegister" required>
+                <input type="password" name="password" id="passwordCheked" placeholder="Ingresa nuevamente tu contraseña" class="inputTextFieldRegister registration" required>
             </fieldset>
             <fieldset class="buttonField">
-                <a href="/"><input type="button" value="Enviar" name="enviar" class="sendButton"></a>
-                <a href="/"><input type="button" value="Borrar" name="borrar" class="sendButton"></a>
+                <a href="/"><input type="submit" value="Enviar" name="enviar" class="sendButton"></a>
+                <a href="/"><input type="reset" value="Borrar" name="borrar" class="sendButton"></a>
             </fieldset>
         </form>
     </main>
